@@ -122,6 +122,7 @@
         &:hover,
         &:focus {
             color: var(--accent-color);
+        }
 }
 
 
@@ -181,20 +182,18 @@
     height: 50px;
     margin-left: 12px;
 
-    &::after {
-        content: '';
-        display: inline-block;
-        width: 24px;
-        height: 24px;
-        margin-left: 10px;
-        background-image: url(../images-sprite/icon-send.svg);
-    }
+        &::after {
+            content: '';
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            margin-left: 10px;
+            background-image: url(../images-sprite/icon-send.svg);
+        }
 
-    &:hover,
-    &:focus {
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    }
+        &:hover,
+        &:focus {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        }
 }
-
-
 
